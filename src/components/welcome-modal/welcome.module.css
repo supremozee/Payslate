@@ -54,8 +54,14 @@
     padding: none;
 }
 @media (max-width: 1040px) {
+    .welcome {
+        width: 92%;
+        position: relative;
+    }
     .profilepicture {
         border: 4px solid rgb(6, 102, 139);
+        position: absolute;
+        bottom: 70px;
       }
       .welcometext span {
           display: flex;
@@ -63,13 +69,14 @@
           font-size: 10px;
           letter-spacing: 1.5px;
           font-family: Georgia, 'Times New Roman', Times, serif;
+          position: relative;
       }
       .welcometext span:first-child {
           font-size: 15px;
-         
+          position: relative;
       }
       .buttoncont {
-          width: 32%;
+          width: 35%;
       }
       .button {
           font-size: 12px;

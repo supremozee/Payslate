@@ -4,8 +4,9 @@
     padding: -15px;
     background-color: rgb(6, 102, 139);
     width: 103%;
-    height: 102vh;
+    height: 110vh;
     overflow: scroll;
+    overflow-x: hidden;
 }
 .lsFormPic {
     width: 60%;
@@ -14,13 +15,12 @@
     border-top-left-radius: 40px;
     display: flex;
     justify-content: center;
-    height: 102vh;
+    height: 108vh;
     background-image: url(pic3);
     opacity: 1.5;
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 .lsTextContent {
     display: flex;
@@ -152,7 +152,7 @@ button:focus-within {
 .footerParagraph {
     width: 52%;
 }
-@media (max-width: 1040px) {
+@media (max-width: 900px) {
     .container {
         width: 103%;
         height: 100vh;

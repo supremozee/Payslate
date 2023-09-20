@@ -413,7 +413,9 @@ font-size: 10px;
     width: 30%;
     font-size: 15px;
    }
-
+.more {
+    width: 96%;
+}
    .user .dp {
     font-size: 12px;
    }
