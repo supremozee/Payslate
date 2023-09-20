@@ -1,0 +1,81 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profilepicture {
+  border: 5px solid rgb(6, 102, 139);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.welcometext {
+    color: white;
+   margin-top:15px;
+   display: flex;
+   flex-direction: column;    
+}
+.welcometext span {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.welcometext span:first-child {
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.buttoncont {
+ display: flex;
+    margin-top: 10px;
+    width: 15%;
+}
+.button {
+    width: 100%;
+    padding: 8px;
+    background: rgb(6, 102, 139);;
+    border-radius: 50px;
+    padding: none;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.button:hover {
+    background: black;
+}
+.button:focus {
+    width: 100%;
+    padding: none;
+}
+@media (max-width: 1040px) {
+    .profilepicture {
+        border: 4px solid rgb(6, 102, 139);
+      }
+      .welcometext span {
+          display: flex;
+          justify-content: center;
+          font-size: 10px;
+          letter-spacing: 1.5px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .welcometext span:first-child {
+          font-size: 15px;
+         
+      }
+      .buttoncont {
+          width: 32%;
+      }
+      .button {
+          font-size: 12px;
+          
+      }
+      .button:hover {
+          background: black;
+      }
+}

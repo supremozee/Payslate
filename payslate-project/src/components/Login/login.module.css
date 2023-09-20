@@ -1,0 +1,201 @@
+.container {
+    display: flex;
+    margin: -15px;
+    padding: -15px;
+    background-color: rgb(6, 102, 139);
+    width: 103%;
+    height: 102vh;
+    overflow: scroll;
+}
+.lsFormPic {
+    width: 60%;
+    margin: -10px;
+    padding: -10px;
+    border-top-left-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 102vh;
+    background-image: url(pic3);
+    opacity: 1.5;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.lsTextContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 45%;
+}
+.lsTextContent h2 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.Nig {
+    font-weight: 700;
+}
+.formWrap{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 50vh;
+    align-items: center;
+    /* justify-content: center; */
+}
+.header {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.header h2 {
+    color: rgb(41, 126, 160);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.options {
+    width: 80%;
+    padding: none;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(241, 232, 232);
+    border-radius: 50px;
+}
+.options button {
+    color: rgb(36, 35, 35);
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: none;
+}
+button:active{
+    width: 50%;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+   background-color: rgb(6, 102, 139);
+}
+button:focus-within {
+    width: 50%;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+   background-color: rgb(6, 102, 139);
+}
+.form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
+.formInput2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+}
+.input {
+    border-radius: 50px;
+    border: 0.8px solid rgb(223, 216, 216);
+    height: 32px;
+    padding: 5px;
+    font-size: 20px;
+}
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+}
+.forgot span {
+ color: rgb(6, 102, 139);
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    height: 32px;
+   margin-top: 25px;
+}
+.submit button {
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+   background-color: rgb(6, 102, 139);
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.footerParagraph {
+    width: 52%;
+}
+@media (max-width: 1040px) {
+    .container {
+        width: 103%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .lsFormPic {
+        width: 100%;
+        height: 50vh;
+    }
+    .lsTextContent {
+        width: 75%;
+    }
+    .lsTextContent h2 {
+        font-size: 32px;
+        margin-left: 10px;
+    }
+
+    .formWrap{
+        width: 100%;
+        height: 20vh;
+    }
+    .formContainer {
+        
+        width: 88%;
+        align-items: center;
+    }
+    .header h2 {
+        font-size: 15px;
+    }
+    .input {
+        font-size: 15px;
+    }
+    .submit {
+       margin-top: 15px;
+       margin-bottom: 15px;
+
+    }
+    .footer {
+      margin: 0;
+    }
+    .footerParagraph {
+        width: 50%;
+    }
+}
