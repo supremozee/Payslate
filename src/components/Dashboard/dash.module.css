@@ -472,7 +472,9 @@ font-size: 10px;
     width: 60%;
 }
 .tour button {
-    
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .headertext {
     width: 100%;
