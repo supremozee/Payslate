@@ -84,6 +84,7 @@
 }
 .mainlist button {
     border: none;
+    cursor: pointer;
     background: none;
     padding: 17px;
     text-align: end;
@@ -118,6 +119,7 @@
     border: none;
     background: none;
     padding: 17px;
+    cursor: pointer;
     text-align: end;
     letter-spacing: 2.3px;
     font-size: 15px;
@@ -218,11 +220,9 @@ font-size: 15px;
     border-radius: 10px;
     background-position: center;
     background-size: cover;
-    /* width: 95%; */
     height: 40vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 .headertext {
     display: flex;
@@ -416,6 +416,7 @@ font-size: 10px;
 .more {
     width: 100%;
 }
+
    .user .dp {
     font-size: 12px;
    }
@@ -470,6 +471,15 @@ font-size: 10px;
 .tour {
     width: 60%;
 }
+.tour button {
+    
+}
+.headertext {
+    width: 100%;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
 .paymentmethod {
    display: flex;
    flex-direction: column;
@@ -491,7 +501,7 @@ font-size: 10px;
 }
 @media (max-width: 900px) {
     .second {
-        width: 50%;
+        width: 56%;
     }
 }
 
